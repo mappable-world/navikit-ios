@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MappableMobileNavikit",
-            url: "https://mappableworld.s3.eu-west-3.amazonaws.com/MappableMobile-4.11.0-navikit.framework.zip",
-            checksum: "03de8322963d4e9324257956e36a14f384d14b077d50098226c380fae8cff1fc"
+            url: "https://mappableworld.s3.eu-west-3.amazonaws.com/MappableMobile-4.12.0-navikit.framework.zip",
+            checksum: "71f28d0c420e710098babb4aeb4fb0810e14d8dd8823d1494b8c2c379d2a2731"
         ),
         .target(
             name: "MappableMobileNavikitResources",
