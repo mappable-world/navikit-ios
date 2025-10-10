@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MappableMobileNavikit",
-            url: "https://mappableworld.s3.eu-west-3.amazonaws.com/MappableMobile-4.23.0-navikit.framework.zip",
-            checksum: "ebec845b4f080d4a4acf8a0e640b80f32cf370ea6c906df0602e2ca37894b0bc"
+            url: "https://mappableworld.s3.eu-west-3.amazonaws.com/MappableMobile-4.24.0-navikit.framework.zip",
+            checksum: "319ddd34584e5f6b8f7717a1653f4630340247aec7832471ff520f7774ac9538"
         ),
         .target(
             name: "MappableMobileNavikitResources",
@@ -39,6 +39,7 @@ let package = Package(
                 .linkedFramework("CoreTelephony"),
                 .linkedFramework("CoreMotion"),
                 .linkedFramework("DeviceCheck"),
+                .linkedFramework("NetworkExtension"),
                 .linkedLibrary("resolv"),
                 .linkedLibrary("c++"),
             ]
